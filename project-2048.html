@@ -3,26 +3,27 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content=" FILL ME IN ">
-    <meta name="author" content=" FILL ME IN ">
-    <title>Cameron Pittman: Portfolio</title>
 
-    <!-- Hmm, what is the impact of web fonts on speed? Measure it... -->
-    <!-- <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> -->
-
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/print.css" rel="stylesheet">
-
-    <script>
-      (function(w,g){w['GoogleAnalyticsObject']=g;
-      w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
-
-      // TODO: replace with your Google Analytics profile ID.
-      ga('create', 'UA-XXXX-Y');
-      ga('send', 'pageview');
-    </script>
-    <script src="//www.google-analytics.com/analytics.js"></script>
-    <script src="js/perfmatters.js"></script>
+    <title>Udacity: Web Performance</title>    
+   
+    <link href="css/print.min.css" rel="stylesheet" media="print">
+   
+    <style type="text/css">
+      body { margin: 0; font-size: 14px; line-height: 1.61; font-weight: 400; background: #fff;}
+      body, button, input, select, textarea { font-family: sans-serif; color: #333; }
+      img { border: 0; max-width: 100%; }
+      header, footer, .container { max-width: 45em; margin: 0 auto; }
+      header { padding: 0 0.5em; color: #C90B0B; }
+      header img { border-radius: 40px; float: left; }
+      header p { font-size:1.5em; font-weight: bold; padding-left: 4em;}
+      header p span { font-size: 0.8em; font-weight: normal;}
+      .content li { list-style-type: none; font-size: 1.1em;}
+      @media only screen and (max-width: 480px) {
+        body { font-size: 12px;}
+        header p { padding-left: 4.5em;}
+      }
+    </style>
+    
   </head>
 
   <body>
@@ -49,5 +50,21 @@
     <footer>
       <p>&copy; Web Performance 2014 <span id="crp-stats"></span></p>
     </footer>
+
+    <script async src="js/loadcss.min.js"></script>
+     <noscript>
+      <!-- Let's not assume anything -->
+      <link rel="stylesheet" href="css/styles.min.css">
+    </noscript>
+    <script>
+      (function(w,g){w['GoogleAnalyticsObject']=g;
+      w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
+
+      // TODO: replace with your Google Analytics profile ID.
+      ga('create', 'UA-XXXX-Y');
+      ga('send', 'pageview');
+    </script>
+    <script async src="http://www.google-analytics.com/analytics.js"></script>
+    <script async src="js/perfmatters.min.js"></script>
   </body>
 </html>

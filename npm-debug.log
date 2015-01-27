@@ -1,0 +1,160 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '[-g]', 'minifier' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose cache add [ '[-g]', null ]
+5 verbose cache add name=undefined spec="[-g]" args=["[-g]",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: '[-g]',
+6 verbose parsed url   path: '[-g]',
+6 verbose parsed url   href: '[-g]' }
+7 verbose cache add [ 'minifier', null ]
+8 verbose cache add name=undefined spec="minifier" args=["minifier",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'minifier',
+9 verbose parsed url   path: 'minifier',
+9 verbose parsed url   href: 'minifier' }
+10 silly lockFile 6f826bb4-g [-g]
+11 verbose lock [-g] /Users/katielouw/.npm/6f826bb4-g.lock
+12 silly lockFile 59c8589d-minifier minifier
+13 verbose lock minifier /Users/katielouw/.npm/59c8589d-minifier.lock
+14 silly lockFile 6f826bb4-g [-g]
+15 silly lockFile 6f826bb4-g [-g]
+16 silly lockFile 59c8589d-minifier minifier
+17 silly lockFile 59c8589d-minifier minifier
+18 verbose addNamed [ '[-g]', '' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile e58810aa-g [-g]@
+21 verbose lock [-g]@ /Users/katielouw/.npm/e58810aa-g.lock
+22 verbose addNamed [ 'minifier', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 690faf1f-minifier minifier@
+25 verbose lock minifier@ /Users/katielouw/.npm/690faf1f-minifier.lock
+26 silly addNameRange { name: '[-g]', range: '*', hasData: false }
+27 silly addNameRange { name: 'minifier', range: '*', hasData: false }
+28 verbose request where is /[-g]
+29 verbose request registry https://registry.npmjs.org/
+30 verbose request id d344c2727e37c6e0
+31 verbose url raw /[-g]
+32 verbose url resolving [ 'https://registry.npmjs.org/', './%5B-g%5D' ]
+33 verbose url resolved https://registry.npmjs.org/%5B-g%5D
+34 verbose request where is https://registry.npmjs.org/%5B-g%5D
+35 info trying registry request attempt 1 at 14:26:09
+36 http GET https://registry.npmjs.org/%5B-g%5D
+37 verbose request where is /minifier
+38 verbose request registry https://registry.npmjs.org/
+39 verbose url raw /minifier
+40 verbose url resolving [ 'https://registry.npmjs.org/', './minifier' ]
+41 verbose url resolved https://registry.npmjs.org/minifier
+42 verbose request where is https://registry.npmjs.org/minifier
+43 info trying registry request attempt 1 at 14:26:09
+44 http GET https://registry.npmjs.org/minifier
+45 http 404 https://registry.npmjs.org/%5B-g%5D
+46 verbose headers { date: 'Tue, 27 Jan 2015 22:26:08 GMT',
+46 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+46 verbose headers   'content-type': 'application/json',
+46 verbose headers   'cache-control': 'max-age=0',
+46 verbose headers   'content-length': '52',
+46 verbose headers   'accept-ranges': 'bytes',
+46 verbose headers   via: '1.1 varnish',
+46 verbose headers   age: '0',
+46 verbose headers   'x-served-by': 'cache-lax1435-LAX',
+46 verbose headers   'x-cache': 'MISS',
+46 verbose headers   'x-cache-hits': '0',
+46 verbose headers   'x-timer': 'S1422397568.879315,VS0,VE75',
+46 verbose headers   'keep-alive': 'timeout=10, max=50',
+46 verbose headers   connection: 'Keep-Alive' }
+47 silly registry.get cb [ 404,
+47 silly registry.get   { date: 'Tue, 27 Jan 2015 22:26:08 GMT',
+47 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+47 silly registry.get     'content-type': 'application/json',
+47 silly registry.get     'cache-control': 'max-age=0',
+47 silly registry.get     'content-length': '52',
+47 silly registry.get     'accept-ranges': 'bytes',
+47 silly registry.get     via: '1.1 varnish',
+47 silly registry.get     age: '0',
+47 silly registry.get     'x-served-by': 'cache-lax1435-LAX',
+47 silly registry.get     'x-cache': 'MISS',
+47 silly registry.get     'x-cache-hits': '0',
+47 silly registry.get     'x-timer': 'S1422397568.879315,VS0,VE75',
+47 silly registry.get     'keep-alive': 'timeout=10, max=50',
+47 silly registry.get     connection: 'Keep-Alive' } ]
+48 silly lockFile e58810aa-g [-g]@
+49 silly lockFile e58810aa-g [-g]@
+50 http 200 https://registry.npmjs.org/minifier
+51 silly registry.get cb [ 200,
+51 silly registry.get   { date: 'Tue, 27 Jan 2015 22:26:09 GMT',
+51 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+51 silly registry.get     etag: '"8IIBEN4D82JWRZVCVZF1M1M60"',
+51 silly registry.get     'content-type': 'application/json',
+51 silly registry.get     'cache-control': 'max-age=60',
+51 silly registry.get     'content-length': '16766',
+51 silly registry.get     'accept-ranges': 'bytes',
+51 silly registry.get     via: '1.1 varnish',
+51 silly registry.get     age: '0',
+51 silly registry.get     'x-served-by': 'cache-lax1430-LAX',
+51 silly registry.get     'x-cache': 'MISS',
+51 silly registry.get     'x-cache-hits': '0',
+51 silly registry.get     'x-timer': 'S1422397568.868867,VS0,VE310',
+51 silly registry.get     vary: 'Accept',
+51 silly registry.get     'keep-alive': 'timeout=10, max=50',
+51 silly registry.get     connection: 'Keep-Alive' } ]
+52 silly addNameRange number 2 { name: 'minifier', range: '*', hasData: true }
+53 silly addNameRange versions [ 'minifier',
+53 silly addNameRange   [ '0.4.1',
+53 silly addNameRange     '0.4.2',
+53 silly addNameRange     '0.4.3',
+53 silly addNameRange     '0.4.4',
+53 silly addNameRange     '0.4.5',
+53 silly addNameRange     '0.4.6',
+53 silly addNameRange     '0.5.0',
+53 silly addNameRange     '0.6.0',
+53 silly addNameRange     '0.6.1' ] ]
+54 verbose addNamed [ 'minifier', '0.6.1' ]
+55 verbose addNamed [ '0.6.1', '0.6.1' ]
+56 silly lockFile 345c7ae5-minifier-0-6-1 minifier@0.6.1
+57 verbose lock minifier@0.6.1 /Users/katielouw/.npm/345c7ae5-minifier-0-6-1.lock
+58 silly lockFile 39b89008--org-minifier-minifier-0-6-1-tgz https://registry.npmjs.org/minifier/-/minifier-0.6.1.tgz
+59 verbose lock https://registry.npmjs.org/minifier/-/minifier-0.6.1.tgz /Users/katielouw/.npm/39b89008--org-minifier-minifier-0-6-1-tgz.lock
+60 verbose addRemoteTarball [ 'https://registry.npmjs.org/minifier/-/minifier-0.6.1.tgz',
+60 verbose addRemoteTarball   '7d8a265abe0316b5428000b5e2ba44f085579cbd' ]
+61 info retry fetch attempt 1 at 14:26:09
+62 verbose fetch to= /var/folders/7f/d7ldj8wn1dg9wckhffzxtwd00000gn/T/npm-11481-XMKpNrCN/registry.npmjs.org/minifier/-/minifier-0.6.1.tgz
+63 http GET https://registry.npmjs.org/minifier/-/minifier-0.6.1.tgz
+64 http 200 https://registry.npmjs.org/minifier/-/minifier-0.6.1.tgz
+65 silly lockFile 39b89008--org-minifier-minifier-0-6-1-tgz https://registry.npmjs.org/minifier/-/minifier-0.6.1.tgz
+66 silly lockFile 39b89008--org-minifier-minifier-0-6-1-tgz https://registry.npmjs.org/minifier/-/minifier-0.6.1.tgz
+67 silly lockFile 345c7ae5-minifier-0-6-1 minifier@0.6.1
+68 silly lockFile 345c7ae5-minifier-0-6-1 minifier@0.6.1
+69 silly lockFile 690faf1f-minifier minifier@
+70 silly lockFile 690faf1f-minifier minifier@
+71 error 404 404 Not Found: %5B-g%5D
+71 error 404
+71 error 404 '%5B-g%5D' is not in the npm registry.
+71 error 404 You should bug the author to publish it
+71 error 404
+71 error 404 Note that you can also install from a
+71 error 404 tarball, folder, or http url, or git url.
+72 error System Darwin 14.0.0
+73 error command "node" "/usr/local/bin/npm" "install" "[-g]" "minifier"
+74 error cwd /Applications/MAMP/htdocs/udportfolio
+75 error node -v v0.10.32
+76 error npm -v 1.4.28
+77 error code E404
+78 verbose exit [ 1, true ]

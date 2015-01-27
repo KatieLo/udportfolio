@@ -63,3 +63,15 @@ Feeling uninspired by the portfolio? Here's a list of cool portfolios I found af
 * <a href="http://nicoledominguez.com/portfolio/">http://nicoledominguez.com/portfolio/</a>
 * <a href="http://www.roxannecook.com/">http://www.roxannecook.com/</a>
 * <a href="http://www.84colors.com/portfolio.html">http://www.84colors.com/portfolio.html</a>
+
+#What I did 
+
+At first run, the site scored 29/100 on desktop and 26/100 for mobile.
+
+## Desktop
+
+1. Optimize Images: resize and compress. Score increased t0 68 -- 81
+2. JS: Load JS asyncronously, move scripts out of head to the bottom of body
+3. CSS: Add media="print" for styles that are used to print. Removed Google fonts, since it wasn;t worth an extra render-blocking resource. Score: 82 -- 88 
+4.Minify and compress CSS and JS. score: 94-95. 
+5. Only thing left is server side: leverage browser caching, but this is a local site only site. 
